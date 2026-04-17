@@ -6,7 +6,7 @@
     "name": "Phòng khám Da liễu LG - Điều trị viêm nang lông, sẹo, nám, mụn TP.HCM",
     "legalName": "Phòng khám Da liễu LG Clinic",
     "alternateName": "Phòng khám Da Liễu LG",
-    "slogan": "Chuyên điều trị mụn, sẹo rỗ, nám và viêm nang lông tại TP.HCM",
+    "slogan": "Chuyên điều trị mụn body, sẹo rỗ, sẹo hỗn hợp, nám và viêm nang lông toàn thân tại TP.HCM",
     "description": "Phòng khám Da liễu LG chuyên điều trị mụn, sẹo rỗ, nám, viêm nang lông và các vấn đề da liễu bằng công nghệ cao, phác đồ cá nhân hóa và đội ngũ bác sĩ giàu kinh nghiệm tại TP.HCM.",
     "keywords": [
         "phòng khám da liễu",
@@ -28,7 +28,6 @@
         "tàn nhang",
         "viêm nang lông",
         "da liễu thẩm mỹ",
-        "laser da liễu",
         "phòng khám trị mụn",
         "phòng khám trị nám",
         "phòng khám trị sẹo rỗ",
@@ -39,13 +38,19 @@
     "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
     "logo": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
     "url": "https://phongkhamdalieulg.vn/",
-    "mainEntityOfPage": "https://phongkhamdalieulg.vn/",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://phongkhamdalieulg.vn/"
+    },
     "telephone": "0789212121",
     "email": "cskh@phongkhamdalieulg.vn",
-    "priceRange": "200.000₫ - 10.000.000₫",
+    "priceRange": "200.000₫ - 30.000.000₫",
     "currenciesAccepted": "VND",
-    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
-
+    "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Bank Transfer"
+    ],
     "sameAs": [
         "https://www.facebook.com/phongkhamdalieulgclinic/",
         "https://www.youtube.com/@phongkhamdalieulg",
@@ -66,8 +71,8 @@
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "672A1 Đ. Phan Văn Trị, Phường 10",
-        "addressLocality": "Quận Gò Vấp",
-        "addressRegion": "TP.HCM",
+        "addressLocality": "Gò Vấp",
+        "addressRegion": "Hồ Chí Minh",
         "postalCode": "700000",
         "addressCountry": "VN"
     },
@@ -78,7 +83,14 @@
         "longitude": 106.67236063445
     },
 
-    "hasMap": "https://maps.app.goo.gl/iPjMezmsTxeLLRySA",
+    "hasMap": [
+        "https://maps.app.goo.gl/iPjMezmsTxeLLRySA",
+        "https://maps.app.goo.gl/ggWDmba9vwHaJc8G7",
+        "https: //maps.app.goo.gl/JpmoJpvCEWeqyvo86",
+        "https: //maps.app.goo.gl/Tqz6CFJw3aKHkrun6"
+
+    ],
+
 
     "areaServed": [{
             "@type": "City",
@@ -122,7 +134,7 @@
         {
             "@type": "MedicalTherapy",
             "name": "Điều trị sẹo",
-            "description": "Điều trị sẹo rỗ, sẹo lõm, sẹo lồi, giúp cải thiện bề mặt da và tái tạo da"
+            "description": "Điều trị sẹo rỗ, sẹo lõm, sẹo lồi, sẹo hỗn hợp giúp cải thiện bề mặt da và tái tạo da"
         },
         {
             "@type": "MedicalTherapy",
@@ -674,6 +686,11 @@
     "hasCredential": [{
         "@type": "EducationalOccupationalCredential",
         "name": "Giấy phép hoạt động khám bệnh, chữa bệnh",
+        "identifier": "10881",
+        "recognizedBy": {
+            "@type": "GovernmentOrganization",
+            "name": "Sở Y tế TP.HCM"
+        },
         "url": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/09/cn2.webp"
     }]
 }
