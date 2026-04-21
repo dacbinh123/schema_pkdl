@@ -38,19 +38,13 @@
     "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
     "logo": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
     "url": "https://phongkhamdalieulg.vn/",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://phongkhamdalieulg.vn/"
-    },
+    "mainEntityOfPage": "https://phongkhamdalieulg.vn/",
     "telephone": "0789212121",
     "email": "cskh@phongkhamdalieulg.vn",
-    "priceRange": "200.000₫ - 30.000.000₫",
+    "priceRange": "200.000₫ - 100.000.000₫",
     "currenciesAccepted": "VND",
-    "paymentAccepted": [
-        "Cash",
-        "Credit Card",
-        "Bank Transfer"
-    ],
+    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+
     "sameAs": [
         "https://www.facebook.com/phongkhamdalieulgclinic/",
         "https://www.youtube.com/@phongkhamdalieulg",
@@ -71,8 +65,8 @@
     "address": {
         "@type": "PostalAddress",
         "streetAddress": "672A1 Đ. Phan Văn Trị, Phường 10",
-        "addressLocality": "Gò Vấp",
-        "addressRegion": "Hồ Chí Minh",
+        "addressLocality": "Quận Gò Vấp",
+        "addressRegion": "TP.HCM",
         "postalCode": "700000",
         "addressCountry": "VN"
     },
@@ -686,11 +680,6 @@
     "hasCredential": [{
         "@type": "EducationalOccupationalCredential",
         "name": "Giấy phép hoạt động khám bệnh, chữa bệnh",
-        "identifier": "10881",
-        "recognizedBy": {
-            "@type": "GovernmentOrganization",
-            "name": "Sở Y tế TP.HCM"
-        },
         "url": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/09/cn2.webp"
     }]
 }
