@@ -78,11 +78,7 @@
     },
 
     "hasMap": [
-        "https://maps.app.goo.gl/iPjMezmsTxeLLRySA",
-        "https://maps.app.goo.gl/ggWDmba9vwHaJc8G7",
-        "https: //maps.app.goo.gl/JpmoJpvCEWeqyvo86",
-        "https: //maps.app.goo.gl/Tqz6CFJw3aKHkrun6"
-
+        "https://maps.app.goo.gl/iPjMezmsTxeLLRySA"
     ],
 
 
@@ -175,7 +171,7 @@
                 "@type": "Offer",
                 "itemOffered": {
                     "@type": "MedicalTherapy",
-                    "name": "Mụn body",
+                    "name": "Mụn lưng",
                     "url": "https://phongkhamdalieulg.vn/mun-lung/"
                 }
             },
@@ -203,7 +199,7 @@
                 "itemOffered": {
                     "@type": "MedicalTherapy",
                     "name": "Nám da",
-                    "url": "https://phongkhamdalieulg.vn/tri-nam-pico-melasma"
+                    "url": "https://phongkhamdalieulg.vn/nam-da"
                 }
             },
 
