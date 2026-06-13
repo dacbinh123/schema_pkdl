@@ -1,0 +1,109 @@
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": "https://phongkhamdalieulg.vn/doi-ngu-bac-si/#webpage",
+    "url": "https://phongkhamdalieulg.vn/doi-ngu-bac-si/",
+    "name": "Đội ngũ Bác sĩ Chuyên khoa Da liễu - Phòng khám Da Liễu LG Clinic",
+    "description": "Nơi quy tụ đội ngũ Bác sĩ Chuyên khoa Da liễu, Bác sĩ CKI, CKII giàu kinh nghiệm, giỏi chuyên môn, trực tiếp thăm khám và lên phác đồ điều trị cá nhân hóa tại LG Clinic.",
+    "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://phongkhamdalieulg.vn/#website",
+        "name": "Phòng khám Da Liễu LG Clinic",
+        "url": "https://phongkhamdalieulg.vn/"
+    },
+    "about": {
+        "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+    },
+    "mainEntity": {
+        "@type": "ItemList",
+        "name": "Danh sách Bác sĩ tại LG Clinic",
+        "numberOfItems": 5,
+        "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@type": "Physician",
+                    "@id": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/#person",
+                    "name": "Bác sĩ Đặng Văn Nhẫn",
+                    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/12/bac-si-dang-van-nhan.webp",
+                    "description": "Bác sĩ CKII Đại học Y Dược TP.HCM, CKI Phẫu thuật tạo hình – thẩm mỹ, có chứng chỉ hành nghề khám chữa bệnh chuyên khoa Ngoại do Sở Y tế TP.HCM cấp, với hơn 25 năm kinh nghiệm.",
+                    "url": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/",
+                    "medicalSpecialty": "Dermatology",
+                    "worksFor": {
+                        "@type": "MedicalClinic",
+                        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+                        "name": "Phòng khám Da Liễu LG Clinic"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@type": "Physician",
+                    "@id": "https://phongkhamdalieulg.vn/bac-si/bui-van-quang/#person",
+                    "name": "Bác sĩ Bùi Văn Quang",
+                    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-bui-van-quang.webp",
+                    "description": "Bác sĩ Đa khoa tốt nghiệp Đại học Quân Y, CKI Nội khoa và Da liễu, có chứng chỉ hành nghề khám chữa bệnh Nội khoa và Da liễu do Bộ Quốc phòng cấp; được đào tạo về kiểm soát nhiễm khuẩn bệnh viện tại Đại học Y Hà Nội và ứng dụng laser – ánh sáng trong da liễu tại Bệnh viện Da liễu, với hơn 20 năm kinh nghiệm.",
+                    "url": "https://phongkhamdalieulg.vn/bac-si/bui-van-quang/",
+                    "medicalSpecialty": "Dermatology",
+                    "worksFor": {
+                        "@type": "MedicalClinic",
+                        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+                        "name": "Phòng khám Da Liễu LG Clinic"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@type": "Physician",
+                    "@id": "https://phongkhamdalieulg.vn/bac-si/phan-minh-nhat/#person",
+                    "name": "Bác sĩ Phan Minh Nhật",
+                    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-minh-nhat.webp",
+                    "description": "Bác sĩ Y đa khoa tốt nghiệp Đại học Y khoa Phạm Ngọc Thạch, CKI Da liễu tại Đại học Y Dược TP.HCM, có chứng chỉ hành nghề khám chữa bệnh chuyên khoa Da liễu do Sở Y tế Quảng Ngãi cấp; được đào tạo về filler, căng chỉ tại Đại học Y Dược TP.HCM và botox, laser, thủ thuật cơ bản – tiểu phẫu da tại Bệnh viện Da liễu TP.HCM, cùng chứng chỉ kiểm soát nhiễm khuẩn của Viện Khoa học Quản lý Y tế, với hơn 7 năm kinh nghiệm.",
+                    "url": "https://phongkhamdalieulg.vn/bac-si/phan-minh-nhat/",
+                    "medicalSpecialty": "Dermatology",
+                    "worksFor": {
+                        "@type": "MedicalClinic",
+                        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+                        "name": "Phòng khám Da Liễu LG Clinic"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 4,
+                "item": {
+                    "@type": "Physician",
+                    "name": "Bác sĩ Nguyễn Thị Thu Thảo",
+                    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/12/bac-si-thu-thao.webp",
+                    "description": "Bác sĩ Đa khoa tốt nghiệp Đại học Y Tây Nguyên, CKI Da liễu tại Đại học Y khoa Phạm Ngọc Thạch; được đào tạo về ứng dụng laser và ánh sáng trong da liễu, kỹ thuật tiêm botulinum toxin trong thẩm mỹ, thủ thuật cơ bản – tiểu phẫu da tại Bệnh viện Da liễu TP.HCM, cùng kỹ thuật tiêm chất làm đầy trong thẩm mỹ da tại Đại học Y Dược TP.HCM.",
+                    "medicalSpecialty": "Dermatology",
+                    "worksFor": {
+                        "@type": "MedicalClinic",
+                        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+                        "name": "Phòng khám Da Liễu LG Clinic"
+                    }
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 5,
+                "item": {
+                    "@type": "Physician",
+                    "name": "Bác sĩ Nguyễn Xuân Trọn",
+                    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-xuan-tron.webp",
+                    "description": "Bác sĩ Y khoa tốt nghiệp Đại học Võ Trường Toản, có chứng chỉ hành nghề khám, chữa bệnh chuyên khoa Ngoại do Sở Y tế TP.HCM cấp; được đào tạo phẫu thuật tạo hình thẩm mỹ cơ bản tại Đại học Trà Vinh và ứng dụng Hyaluronic Acid công nghệ kép Nahyco Hybrid trong trẻ hóa và tạo đường nét cơ thể tại Đại học Y Dược TP.HCM.",
+                    "medicalSpecialty": "Dermatology",
+                    "worksFor": {
+                        "@type": "MedicalClinic",
+                        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+                        "name": "Phòng khám Da Liễu LG Clinic"
+                    }
+                }
+            }
+        ]
+    }
+}

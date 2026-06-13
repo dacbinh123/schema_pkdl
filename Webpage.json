@@ -1,0 +1,14 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "%post_url%#webpage",
+    "url": "%post_url%",
+    "name": "%seo_title%",
+    "isPartOf": {
+        "@id": "https://phongkhamdalieulg.vn/#website"
+    },
+    "about": {
+        "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+    },
+    "description": "%seo_description%"
+}

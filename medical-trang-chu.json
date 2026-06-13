@@ -1,0 +1,583 @@
+{
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
+    "name": "Phòng khám Da Liễu LG Clinic",
+    "legalName": "Phòng khám Da Liễu LG Clinic",
+    "alternateName": "Phòng khám Da Liễu LG Clinic",
+    "slogan": "Chuyên điều trị mụn body, sẹo rỗ, sẹo hỗn hợp, nám và viêm nang lông toàn thân tại TP.HCM",
+    "description": "Phòng khám Da Liễu LG Clinic chuyên điều trị mụn, sẹo rỗ, nám, viêm nang lông và các vấn đề da liễu bằng công nghệ cao, phác đồ cá nhân hóa và đội ngũ bác sĩ giàu kinh nghiệm tại TP.HCM.",
+    "keywords": [
+        "phòng khám da liễu",
+        "phòng khám da liễu TP.HCM",
+        "điều trị mụn",
+        "điều trị mụn chuyên sâu",
+        "điều trị sẹo rỗ",
+        "điều trị sẹo",
+        "điều trị nám",
+        "điều trị viêm nang lông",
+        "điều trị mụn lưng",
+        "điều trị thâm mụn",
+        "da liễu thẩm mỹ",
+        "phòng khám trị mụn",
+        "phòng khám trị nám",
+        "phòng khám trị sẹo rỗ",
+        "phòng khám trị viêm nang lông",
+        "bác sĩ da liễu",
+        "da liễu công nghệ cao"
+    ],
+    "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
+    "logo": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp",
+    "url": "https://phongkhamdalieulg.vn/",
+    "mainEntityOfPage": "https://phongkhamdalieulg.vn/#webpage",
+    "telephone": "0789212121",
+    "email": "cskh@phongkhamdalieulg.vn",
+    "priceRange": "200000VND-100000000VND",
+    "currenciesAccepted": "VND",
+    "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Bank Transfer"
+    ],
+    "sameAs": [
+        "https://www.facebook.com/phongkhamdalieulgclinic/",
+        "https://www.youtube.com/@phongkhamdalieulg",
+        "https://alobacsi.com/phong-kham-da-lieu-lg-dia-chi-uy-tin-cho-lan-da-khoe-dep-chuan-y-khoa-tai-tphcm.html",
+        "https://baolamdong.vn/phong-kham-da-lieu-lg-diem-den-dieu-tri-da-lieu-chat-luong-cao-tai-go-vap-384382.html",
+        "https://thethaovanhoa.vn/kham-pha-profile-khung-cua-vi-bac-si-dung-sau-hang-nghin-ca-tri-mun-thanh-cong-tai-phong-kham-da-lieu-lg-20250611170505382.htm",
+        "https://www.emdep.vn/lam-dep/phong-kham-da-lieu-lg-dia-chi-cham-soc-lan-da-khoe-dep-chuan-y-khoa-20250508093122723.htm"
+    ],
+    "knowsAbout": [
+        "Da liễu",
+        "Da liễu thẩm mỹ",
+        "Điều trị mụn",
+        "Điều trị sẹo rỗ",
+        "Điều trị nám",
+        "Điều trị viêm nang lông"
+    ],
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "672A1 Phan Văn Trị",
+        "addressLocality": "Phường Gò Vấp",
+        "addressRegion": "TP.HCM",
+        "postalCode": "700000",
+        "addressCountry": "VN"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 10.83354893075,
+        "longitude": 106.67236063445
+    },
+    "hasMap": [
+        "https://maps.app.goo.gl/yBjMaKAA6iMiKqCj9"
+    ],
+    "areaServed": [{
+            "@type": "City",
+            "name": "TP.HCM"
+        },
+        {
+            "@type": "AdministrativeArea",
+            "name": "Miền Nam"
+        }
+    ],
+    "isAcceptingNewPatients": true,
+    "publicAccess": true,
+    "openingHours": "Mo-Sa 09:00-21:00, Su 09:00-20:00",
+    "openingHoursSpecification": [{
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+            ],
+            "opens": "09:00",
+            "closes": "21:00"
+        },
+        {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Sunday",
+            "opens": "09:00",
+            "closes": "20:00"
+        }
+    ],
+    "medicalSpecialty": [{
+        "@type": "MedicalSpecialty",
+        "name": "Dermatology",
+        "alternateName": "Da liễu"
+    }],
+    "availableService": [{
+            "@type": "MedicalTherapy",
+            "name": "Điều trị mụn chuyên sâu",
+            "description": "Điều trị mụn mặt, mụn lưng, mụn trứng cá, mụn mủ, mụn đầu đen bằng công nghệ cao"
+        },
+        {
+            "@type": "MedicalTherapy",
+            "name": "Điều trị sẹo rỗ",
+            "description": "Điều trị sẹo rỗ, sẹo lõm, sẹo hỗn hợp giúp cải thiện bề mặt da và tái tạo da"
+        },
+        {
+            "@type": "MedicalTherapy",
+            "name": "Điều trị nám - tàn nhang",
+            "description": "Điều trị nám mảng, nám chân đinh, tàn nhang và các rối loạn sắc tố"
+        },
+        {
+            "@type": "MedicalTherapy",
+            "name": "Điều trị viêm nang lông",
+            "description": "Điều trị viêm nang lông toàn thân(lưng, tay, chân, nách, vùng kín,..), giảm viêm và ngăn tái phát"
+        },
+        {
+            "@type": "MedicalTherapy",
+            "name": "Điều trị thâm",
+            "description": "Điều trị thâm mụn, giúp đều màu da"
+        }
+    ],
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Danh mục dịch vụ Phòng khám Da Liễu LG Clinic",
+        "itemListElement": [{
+                "@type": "OfferCatalog",
+                "name": "Điều trị Viêm nang lông & Mụn lưng",
+                "itemListElement": [{
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Điều trị viêm nang lông",
+                            "url": "https://phongkhamdalieulg.vn/cach-tri-viem-nang-long/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn lưng",
+                            "url": "https://phongkhamdalieulg.vn/mun-lung/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở lưng",
+                            "url": "https://phongkhamdalieulg.vn/viem-nang-long-lung/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở tay",
+                            "url": "https://phongkhamdalieulg.vn/viem-lo-chan-long-o-tay/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở chân",
+                            "url": "https://phongkhamdalieulg.vn/viem-nang-long-o-chan/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở nách",
+                            "url": "https://phongkhamdalieulg.vn/viem-nang-long-o-nach/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở ngực",
+                            "url": "https://phongkhamdalieulg.vn/viem-nang-long-o-nguc/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Viêm nang lông ở vùng kín",
+                            "url": "https://phongkhamdalieulg.vn/viem-nang-long-vung-kin/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Acthyderm CO2 - Trị viêm nang lông & mụn lưng",
+                            "url": "https://phongkhamdalieulg.vn/acthyderm-co2/"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "OfferCatalog",
+                "name": "Điều trị Sẹo rỗ",
+                "itemListElement": [{
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Điều trị sẹo rỗ",
+                            "url": "https://phongkhamdalieulg.vn/dieu-tri-seo-ro/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Sẹo rỗ đáy nhọn",
+                            "url": "https://phongkhamdalieulg.vn/seo-ro-day-nhon/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Sẹo rỗ đáy tròn",
+                            "url": "https://phongkhamdalieulg.vn/seo-ro-day-tron/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Sẹo rỗ đáy vuông",
+                            "url": "https://phongkhamdalieulg.vn/seo-ro-day-vuong/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Triple Treatment - Trị sẹo rỗ đa tầng",
+                            "url": "https://phongkhamdalieulg.vn/phac-do-dieu-tri-seo-ro-triple-treatment/"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "OfferCatalog",
+                "name": "Điều trị Nám và Sắc tố",
+                "itemListElement": [{
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Điều trị nám da",
+                            "url": "https://phongkhamdalieulg.vn/dieu-tri-nam-da/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Nám mảng",
+                            "url": "https://phongkhamdalieulg.vn/nam-mang/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Nám chân đinh",
+                            "url": "https://phongkhamdalieulg.vn/dieu-tri-nam-chan-dinh/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Nám cánh bướm",
+                            "url": "https://phongkhamdalieulg.vn/nam-canh-buom/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Nám râu",
+                            "url": "https://phongkhamdalieulg.vn/cach-tri-nam-rau/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Đồi mồi / Đốm nâu",
+                            "url": "https://phongkhamdalieulg.vn/nam-dom/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Tàn nhang",
+                            "url": "https://phongkhamdalieulg.vn/tri-nam-tan-nhang/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Bớt Hori",
+                            "url": "https://phongkhamdalieulg.vn/nam-hori/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Trị nám Pico Melasma",
+                            "url": "https://phongkhamdalieulg.vn/tri-nam-pico-melasma/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Trị thâm Deep L-Picosure",
+                            "url": "https://phongkhamdalieulg.vn/tri-tham-deep-l-picosure/"
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "OfferCatalog",
+                "name": "Điều trị Mụn mặt",
+                "itemListElement": [{
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn trứng cá",
+                            "url": "https://phongkhamdalieulg.vn/mun-trung-ca/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn nhọt",
+                            "url": "https://phongkhamdalieulg.vn/mun-nhot/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn bọc",
+                            "url": "https://phongkhamdalieulg.vn/mun-boc/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn thịt",
+                            "url": "https://phongkhamdalieulg.vn/mun-thit-la-gi/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn viêm",
+                            "url": "https://phongkhamdalieulg.vn/mun-viem/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Mụn ẩn",
+                            "url": "https://phongkhamdalieulg.vn/mun-an/"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "MedicalTherapy",
+                            "name": "Trị mụn Doctor Laser",
+                            "url": "https://phongkhamdalieulg.vn/tri-mun-doctor-laser/"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "0789212121",
+        "contactType": "customer service",
+        "areaServed": "VN",
+        "availableLanguage": [
+            "Vietnamese"
+        ]
+    },
+    "department": [{
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận 1",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/12/lg-clinic-luxury-quan-1.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "200 Lê Lai",
+                "addressLocality": "Phường Bến Thành",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận Gò Vấp",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/05/lg-clinic-luxury-go-vap-moi.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "672A1 Phan Văn Trị",
+                "addressLocality": "Phường Gò Vấp",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận Phú Nhuận",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/10/toa-nha-lg-clinic-luxury-phu-nhuan.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "152-154-156 Phan Xích Long",
+                "addressLocality": "Phường Cầu Kiệu",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận 10",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/quan-10-mat-tien-1.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "461 Bà Hạt",
+                "addressLocality": "Phường Diên Hồng",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận Tân Phú",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2026/04/anh-tan-phu-mat-tien.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "392 Lũy Bán Bích",
+                "addressLocality": "Phường Hòa Thạnh",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận Bình Tân",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/binh-tan-mat-tien1.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "217 Vành Đai Trong",
+                "addressLocality": "Phường An Lạc",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Quận Tân Bình",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/tan-binh-mat-tien-1.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "61B Nguyễn Thái Bình",
+                "addressLocality": "Phường Tân Sơn Nhất",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Bình Dương",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/binh-duong-mat-tien.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "SH0102 - Số 01 Phú Lợi",
+                "addressLocality": "Phường Phú Lợi",
+                "addressRegion": "Bình Dương",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Clinic Vũng Tàu",
+            "telephone": "0789212121",
+            "priceRange": "200000VND-100000000VND",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/11/toa-nha-vung-tau-2.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "22 Ba Cu",
+                "addressLocality": "Phường Vũng Tàu",
+                "addressRegion": "Bà Rịa - Vũng Tàu",
+                "addressCountry": "VN"
+            }
+        }
+    ],
+    "physician": [{
+            "@type": "Physician",
+            "@id": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/#person",
+            "name": "Bác sĩ Đặng Văn Nhẫn",
+            "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/12/bac-si-dang-van-nhan.webp",
+            "description": "Bác sĩ CKII Đại học Y Dược TP.HCM, CKI Phẫu thuật tạo hình – thẩm mỹ, có chứng chỉ hành nghề khám chữa bệnh chuyên khoa Ngoại do Sở Y tế TP.HCM cấp, với hơn 25 năm kinh nghiệm.",
+            "url": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/",
+            "medicalSpecialty": "Dermatology",
+            "worksFor": {
+                "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+            }
+        },
+        {
+            "@type": "Physician",
+            "@id": "https://phongkhamdalieulg.vn/bac-si/bui-van-quang/#person",
+            "name": "Bác sĩ Bùi Văn Quang",
+            "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-bui-van-quang.webp",
+            "description": "Bác sĩ Đa khoa tốt nghiệp Đại học Quân Y, CKI Nội khoa và Da liễu, có chứng chỉ hành nghề khám chữa bệnh Nội khoa và Da liễu do Bộ Quốc phòng cấp; được đào tạo về kiểm soát nhiễm khuẩn bệnh viện tại Đại học Y Hà Nội và ứng dụng laser – ánh sáng trong da liễu tại Bệnh viện Da liễu, với hơn 20 năm kinh nghiệm.",
+            "url": "https://phongkhamdalieulg.vn/bac-si/bui-van-quang/",
+            "medicalSpecialty": "Dermatology",
+            "worksFor": {
+                "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+            }
+        },
+        {
+            "@type": "Physician",
+            "@id": "https://phongkhamdalieulg.vn/bac-si/phan-minh-nhat/#person",
+            "name": "Bác sĩ Phan Minh Nhật",
+            "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-minh-nhat.webp",
+            "description": "Bác sĩ Y đa khoa tốt nghiệp Đại học Y khoa Phạm Ngọc Thạch, CKI Da liễu tại Đại học Y Dược TP.HCM, có chứng chỉ hành nghề khám chữa bệnh chuyên khoa Da liễu do Sở Y tế Quảng Ngãi cấp; được đào tạo về filler, căng chỉ tại Đại học Y Dược TP.HCM và botox, laser, thủ thuật cơ bản – tiểu phẫu da tại Bệnh viện Da liễu TP.HCM, cùng chứng chỉ kiểm soát nhiễm khuẩn của Viện Khoa học Quản lý Y tế, với hơn 7 năm kinh nghiệm.",
+            "url": "https://phongkhamdalieulg.vn/bac-si/phan-minh-nhat/",
+            "medicalSpecialty": "Dermatology",
+            "worksFor": {
+                "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+            }
+        }
+    ]
+}

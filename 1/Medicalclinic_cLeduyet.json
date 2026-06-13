@@ -3,9 +3,9 @@
     "@type": "MedicalClinic",
     "@id": "kg:/g/11x193bst2",
 
-    "name": "Phòng khám Da liễu LG - Điều trị viêm nang lông, sẹo, nám, mụn TP.HCM",
+    "name": "Phòng khám Da liễu LG",
     "legalName": "Phòng khám Da liễu LG Clinic",
-    "alternateName": "Phòng khám Da Liễu LG",
+    "alternateName": "Phòng khám Da Liễu LG - Điều trị viêm nang lông, sẹo rỗ, nám, mụn TP.HCM",
     "slogan": "Chuyên điều trị mụn body, sẹo rỗ, sẹo hỗn hợp, nám và viêm nang lông toàn thân tại TP.HCM",
     "description": "Phòng khám Da liễu LG chuyên điều trị mụn, sẹo rỗ, nám, viêm nang lông và các vấn đề da liễu bằng công nghệ cao, phác đồ cá nhân hóa và đội ngũ bác sĩ giàu kinh nghiệm tại TP.HCM.",
     "keywords": [
@@ -19,14 +19,6 @@
         "điều trị viêm nang lông",
         "điều trị mụn lưng",
         "điều trị thâm mụn",
-        "mụn trứng cá",
-        "mụn lưng",
-        "sẹo rỗ",
-        "sẹo lõm",
-        "sẹo lồi",
-        "nám da",
-        "tàn nhang",
-        "viêm nang lông",
         "da liễu thẩm mỹ",
         "phòng khám trị mụn",
         "phòng khám trị nám",
@@ -41,10 +33,13 @@
     "mainEntityOfPage": "https://phongkhamdalieulg.vn/",
     "telephone": "0789212121",
     "email": "cskh@phongkhamdalieulg.vn",
-    "priceRange": "200.000₫ - 100.000.000₫",
+    "priceRange": "200.000 - 100.000.000",
     "currenciesAccepted": "VND",
-    "paymentAccepted": "Cash, Credit Card, Bank Transfer",
-
+    "paymentAccepted": [
+        "Cash",
+        "Credit Card",
+        "Bank Transfer"
+    ],
     "sameAs": [
         "https://www.facebook.com/phongkhamdalieulgclinic/",
         "https://www.youtube.com/@phongkhamdalieulg",
@@ -223,16 +218,132 @@
         "availableLanguage": ["Vietnamese"]
     },
 
-    "department": [
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận 1", "address": { "@type": "PostalAddress", "streetAddress": "200 Lê Lai", "addressLocality": "Quận 1", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Gò Vấp", "address": { "@type": "PostalAddress", "streetAddress": "672A1 Phan Văn Trị", "addressLocality": "Gò Vấp", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Phú Nhuận", "address": { "@type": "PostalAddress", "streetAddress": "152-154-156 Phan Xích Long", "addressLocality": "Phú Nhuận", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận 10", "address": { "@type": "PostalAddress", "streetAddress": "461 Bà Hạt", "addressLocality": "Quận 10", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Tân Phú", "address": { "@type": "PostalAddress", "streetAddress": "65 Nguyễn Sơn", "addressLocality": "Tân Phú", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Bình Tân", "address": { "@type": "PostalAddress", "streetAddress": "217 Vành Đai Trong", "addressLocality": "Bình Tân", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Tân Bình", "address": { "@type": "PostalAddress", "streetAddress": "61B Nguyễn Thái Bình", "addressLocality": "Tân Bình", "addressRegion": "TP.HCM", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Bình Dương", "address": { "@type": "PostalAddress", "streetAddress": "01 Phú Lợi", "addressLocality": "Thủ Dầu Một", "addressRegion": "Bình Dương", "addressCountry": "VN" } },
-        { "@type": "MedicalClinic", "name": "Phòng khám Da Liễu LG Quận Vũng Tàu", "address": { "@type": "PostalAddress", "streetAddress": "22 Ba Cu", "addressLocality": "Vũng Tàu", "addressRegion": "Bà Rịa - Vũng Tàu", "addressCountry": "VN" } }
+    "department": [{
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận 1",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/12/lg-clinic-luxury-quan-1.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "200 Lê Lai",
+                "addressLocality": "Quận 1",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận Gò Vấp",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/05/lg-clinic-luxury-go-vap-moi.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "672A1 Phan Văn Trị",
+                "addressLocality": "Gò Vấp",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận Phú Nhuận",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/10/toa-nha-lg-clinic-luxury-phu-nhuan.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "152-154-156 Phan Xích Long",
+                "addressLocality": "Phú Nhuận",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận 10",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/quan-10-mat-tien-1.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "461 Bà Hạt",
+                "addressLocality": "Quận 10",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận Tân Phú",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2026/04/anh-tan-phu-mat-tien.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "65 Nguyễn Sơn",
+                "addressLocality": "Tân Phú",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận Bình Tân",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/binh-tan-mat-tien1.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "217 Vành Đai Trong",
+                "addressLocality": "Bình Tân",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Quận Tân Bình",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/tan-binh-mat-tien-1.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "61B Nguyễn Thái Bình",
+                "addressLocality": "Tân Bình",
+                "addressRegion": "TP.HCM",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Bình Dương",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2024/10/binh-duong-mat-tien.jpg",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "01 Phú Lợi",
+                "addressLocality": "Thủ Dầu Một",
+                "addressRegion": "Bình Dương",
+                "addressCountry": "VN"
+            }
+        },
+        {
+            "@type": "MedicalClinic",
+            "name": "Phòng khám Da Liễu LG Vũng Tàu",
+            "telephone": "0789212121",
+            "priceRange": "200.000₫ - 100.000.000₫",
+            "image": "https://lgclinic.vn/wp-content/uploads/2025/11/toa-nha-vung-tau-2.webp",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "22 Ba Cu",
+                "addressLocality": "Vũng Tàu",
+                "addressRegion": "Bà Rịa - Vũng Tàu",
+                "addressCountry": "VN"
+            }
+        }
     ],
 
     "physician": [{
@@ -341,54 +452,7 @@
                 "name": "Phòng khám Da liễu LG"
             }
         },
-        {
-            "@type": "Physician",
-            "name": "Bác sĩ Nguyễn Hữu Tính",
-            "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-huu-tinh.webp",
-            "description": "Bác sĩ Y đa khoa tốt nghiệp Đại học Trà Vinh, CKI Phẫu thuật tạo hình, tái tạo và thẩm mỹ tại Đại học Y Dược Cần Thơ, có chứng chỉ hành nghề phẫu thuật tạo hình, tái tạo và thẩm mỹ do Sở Y tế Tiền Giang cấp; được đào tạo phẫu thuật tạo hình thẩm mỹ cơ bản tại Đại học Trà Vinh, laser tại Bệnh viện Da liễu TP.HCM và các thủ thuật da – tiểu phẫu tại Bệnh viện Da liễu, với kinh nghiệm thực hành trong lĩnh vực phẫu thuật tạo hình và da liễu thẩm mỹ.",
-            "medicalSpecialty": "Dermatology",
-            "worksFor": {
-                "@id": "kg:/g/11x193bst2"
-            },
-            "alumniOf": [{
-                    "@type": "CollegeOrUniversity",
-                    "name": "Đại học Trà Vinh"
-                },
-                {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Đại học Y Dược Cần Thơ"
-                },
-                {
-                    "@type": "Hospital",
-                    "name": "Bệnh viện Da liễu TP.HCM"
-                }
-            ],
-            "hasCredential": [{
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ hành nghề phẫu thuật tạo hình, tái tạo và thẩm mỹ"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ CKI Phẫu thuật tạo hình, tái tạo và thẩm mỹ"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ đào tạo phẫu thuật tạo hình thẩm mỹ cơ bản"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ ứng dụng laser trong da liễu"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ thủ thuật da và tiểu phẫu"
-                }
-            ],
-            "memberOf": {
-                "@type": "Organization",
-                "name": "Phòng khám Da liễu LG"
-            }
-        },
+
         {
             "@type": "Physician",
             "name": "Bác sĩ Nguyễn Thị Thu Thảo",
@@ -442,46 +506,7 @@
             }
         }, { "@type": "Physician", "name": "Bác sĩ Nguyễn Xuân Trọn", "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-xuan-tron.webp", "description": "Bác sĩ Y khoa tốt nghiệp Đại học Võ Trường Toản, có chứng chỉ hành nghề khám, chữa bệnh chuyên khoa Ngoại do Sở Y tế TP.HCM cấp; được đào tạo phẫu thuật tạo hình thẩm mỹ cơ bản tại Đại học Trà Vinh và ứng dụng Hyaluronic Acid công nghệ kép Nahyco Hybrid trong trẻ hóa và tạo đường nét cơ thể tại Đại học Y Dược TP.HCM.", "medicalSpecialty": "Dermatology", "worksFor": { "@id": "kg:/g/11x193bst2" } },
 
-        {
-            "@type": "Physician",
-            "name": "Bác sĩ Nguyễn Đình Khang",
-            "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/10/bac-si-dinh-khang.webp",
-            "description": "Bác sĩ Y khoa tốt nghiệp Trường Đại học Võ Trường Toản, có chứng chỉ hành nghề khám, chữa bệnh chuyên khoa Ngoại do Sở Y tế Tiền Giang cấp; được đào tạo phẫu thuật tạo hình thẩm mỹ tại Trường Đại học Y Dược Cần Thơ và laser tại Bệnh viện Da liễu TP.HCM.",
-            "medicalSpecialty": "Dermatology",
-            "worksFor": {
-                "@id": "kg:/g/11x193bst2"
-            },
-            "alumniOf": [{
-                    "@type": "CollegeOrUniversity",
-                    "name": "Trường Đại học Võ Trường Toản"
-                },
-                {
-                    "@type": "CollegeOrUniversity",
-                    "name": "Trường Đại học Y Dược Cần Thơ"
-                },
-                {
-                    "@type": "Hospital",
-                    "name": "Bệnh viện Da liễu TP.HCM"
-                }
-            ],
-            "hasCredential": [{
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ hành nghề khám, chữa bệnh chuyên khoa Ngoại"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ đào tạo phẫu thuật tạo hình thẩm mỹ"
-                },
-                {
-                    "@type": "EducationalOccupationalCredential",
-                    "name": "Chứng chỉ ứng dụng laser trong da liễu"
-                }
-            ],
-            "memberOf": {
-                "@type": "Organization",
-                "name": "Phòng khám Da liễu LG"
-            }
-        },
+
         {
             "@type": "Physician",
             "name": "Bác sĩ Nguyễn Huỳnh Phương Anh",

@@ -1,0 +1,12 @@
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://phongkhamdalieulg.vn/#website",
+    "url": "https://phongkhamdalieulg.vn/",
+    "name": "Phòng khám Da Liễu LG Clinic",
+    "alternateName": "Phòng khám da liễu LG",
+    "description": "Hệ thống phòng khám da liễu thẩm mỹ công nghệ cao tại TP.HCM và các tỉnh phía Nam.",
+    "publisher": {
+        "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
+    }
+}
