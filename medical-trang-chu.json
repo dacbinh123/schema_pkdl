@@ -40,6 +40,8 @@
         "Bank Transfer"
     ],
     "sameAs": [
+        "https://www.wikidata.org/wiki/Q140169845",
+        "https://vi.wikipedia.org/wiki/Ph%C3%B2ng_kh%C3%A1m_Da_li%E1%BB%85u_LG_Clinic",
         "https://www.facebook.com/phongkhamdalieulgclinic/",
         "https://www.youtube.com/@phongkhamdalieulg",
         "https://alobacsi.com/phong-kham-da-lieu-lg-dia-chi-uy-tin-cho-lan-da-khoe-dep-chuan-y-khoa-tai-tphcm.html",
@@ -69,7 +71,11 @@
         "longitude": 106.67236063445
     },
     "hasMap": [
-        "https://maps.app.goo.gl/yBjMaKAA6iMiKqCj9"
+        "https://maps.app.goo.gl/yBjMaKAA6iMiKqCj9",
+        "https://maps.app.goo.gl/47ua7rps2GikfC8t8",
+        "https://maps.app.goo.gl/sz5bNDETYqc8GZoF9",
+        "https://maps.app.goo.gl/mLR6uYhVkareTcWQA",
+        "https://maps.app.goo.gl/zhX2AmcPXSRdqh7K6"
     ],
     "areaServed": [{
             "@type": "City",
@@ -145,7 +151,7 @@
                         "itemOffered": {
                             "@type": "MedicalTherapy",
                             "name": "Điều trị viêm nang lông",
-                            "url": "https://phongkhamdalieulg.vn/cach-tri-viem-nang-long/"
+                            "url": "https://phongkhamdalieulg.vn/dieu-tri-viem-nang-long/"
                         }
                     },
                     {

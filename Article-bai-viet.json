@@ -1,20 +1,20 @@
 {
     "@context": "https://schema.org",
     "@type": "Article",
-    "@id": "%post_url%#article",
-    "mainEntityOfPage": "%post_url%",
-    "url": "%post_url%",
-    "headline": "%seo_title%",
-    "alternativeHeadline": "%title%",
-    "name": "%seo_title%",
-    "alternateName": "%title%",
-    "description": "%seo_description%",
+    "@id": "%current_url%#article",
+    "mainEntityOfPage": "%current_url%",
+    "url": "%current_url%",
+    "headline": "%title%",
+    "alternativeHeadline": "%post_title%",
+    "name": "%title%",
+    "alternateName": "%post_title%",
+    "description": "%excerpt%",
     "articleBody": "%post_content%",
     "keywords": "%keywords%",
     "articleSection": "%primary_taxonomy_terms%",
     "inLanguage": "vi",
-    "datePublished": "%date(Y-m-dTH:i:sP)%",
-    "dateModified": "%modified(Y-m-dTH:i:sP)%",
+    "datePublished": "%post_date(Y-m-dTH:i:sP)%",
+    "dateModified": "%post_modified(Y-m-dTH:i:sP)%",
     "wordCount": "%word_count%",
     "about": {
         "@type": "Thing",
@@ -27,33 +27,25 @@
     }],
     "image": {
         "@type": "ImageObject",
-        "@id": "%post_thumbnail%#primaryimage",
-        "name": "%title%",
-        "caption": "%title%",
-        "contentUrl": "%post_thumbnail%",
-        "url": "%post_thumbnail%",
+        "@id": "%featured_image_url%#primaryimage",
+        "name": "%post_title%",
+        "caption": "%post_title%",
+        "contentUrl": "%featured_image_url%",
+        "url": "%featured_image_url%",
         "license": "https://phongkhamdalieulg.vn/chinh-sach-bao-mat/",
-        "acquireLicensePage": "%post_url%",
+        "acquireLicensePage": "%current_url%",
         "creditText": "Phòng khám Da Liễu LG Clinic",
         "copyrightNotice": "Phòng khám Da Liễu LG Clinic"
     },
     "author": {
-        "@type": "MedicalClinic",
-        "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
-        "name": "Team Phòng khám Da Liễu LG Clinic",
-        "url": "https://phongkhamdalieulg.vn/"
+        "@type": "Physician",
+        "@id": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/#person",
+        "name": "Bác sĩ Đặng Văn Nhẫn"
     },
     "reviewedBy": {
         "@type": "Physician",
         "@id": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/#person",
-        "name": "Bác sĩ Đặng Văn Nhẫn",
-        "url": "https://phongkhamdalieulg.vn/bac-si/dang-van-nhan/",
-        "image": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/12/bac-si-dang-van-nhan.webp",
-        "jobTitle": "Bác sĩ chuyên khoa Da liễu",
-        "worksFor": {
-            "@type": "MedicalClinic",
-            "@id": "https://phongkhamdalieulg.vn/#medicalclinic"
-        }
+        "name": "Bác sĩ Đặng Văn Nhẫn"
     },
     "award": [
         "Phòng khám thẩm mỹ của năm khu vực Châu Á Thái Bình Dương - Global Heath 2025",
@@ -66,34 +58,15 @@
         "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
         "name": "Phòng khám Da Liễu LG Clinic"
     },
-    "copyrightYear": "2026",
+    "copyrightYear": "%currentyear%",
     "countryOfOrigin": "Việt Nam",
     "license": "https://phongkhamdalieulg.vn/chinh-sach-bao-mat/",
     "publisher": {
         "@type": "MedicalClinic",
         "@id": "https://phongkhamdalieulg.vn/#medicalclinic",
-        "name": "Phòng khám Da Liễu LG Clinic",
-        "url": "https://phongkhamdalieulg.vn/",
-        "logo": {
-            "@type": "ImageObject",
-            "@id": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp#logo",
-            "url": "https://phongkhamdalieulg.vn/wp-content/uploads/2025/02/logo-phong-kham-da-lieu.webp"
-        },
-        "sameAs": [
-            "https://www.facebook.com/phongkhamdalieulgclinic/",
-            "https://www.youtube.com/@phongkhamdalieulg"
-        ],
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "0789212121",
-            "contactType": "customer support",
-            "areaServed": "VN",
-            "availableLanguage": [
-                "Vietnamese"
-            ]
-        }
+        "name": "Phòng khám Da Liễu LG Clinic"
     },
     "isPartOf": {
-        "@id": "%post_url%#webpage"
+        "@id": "%current_url%#webpage"
     }
 }
